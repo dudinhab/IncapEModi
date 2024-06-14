@@ -7,7 +7,7 @@ In questo caso la nota importante è rendere le proprietà della classe auto acc
 
 import java.util.Scanner;
 
-public class Start {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -25,7 +25,7 @@ public class Start {
 
         //Visualizzazione dei dati inserendo tramite metodi get della Classe
         System.out.println("È inserito i dati dell'auto!");
-        System.out.println("Targa: " + auto.getTarga() + " Marca: " + auto.getMarca() + " Modello: " + auto.getModello() + " Cilindrata:" + auto.getCilindrata());
+        System.out.println("Targa: " + auto.getTarga() + " - Marca: " + auto.getMarca() + " - Modello: " + auto.getModello() + " - Cilindrata: " + auto.getCilindrata());
 
     }
 }
