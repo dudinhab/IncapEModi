@@ -27,5 +27,6 @@ public class Main {
         System.out.println("È inserito i dati dell'auto!");
         System.out.println("Targa: " + auto.getTarga() + " - Marca: " + auto.getMarca() + " - Modello: " + auto.getModello() + " - Cilindrata: " + auto.getCilindrata());
 
+        scanner.close();
     }
 }
